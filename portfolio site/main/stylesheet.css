@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+.toplogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toplogo img{
+    height: 50px;
+}
+
+.lucas p{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+
+.manubar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    
+    
+}
+
+.manubar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+.manubar p {
+    color: rgb(149, 149, 149);
+    text-decoration:none;
+}
+.manubar a {
+    text-decoration: none;
+}
+.manubar p:hover{
+    text-decoration: underline;
+}
+
+.design{
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.hoem{
+    padding-right: 5%;
+}
+.mianimage {
+    background-image: url(../main.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mianimage img {
+    height: 700px;
+    width: 100%;
+    opacity: 0;
+    
+}
+/*メインスクロール*/
+
+
+
+
+.myportfolio p {
+    position: absolute;
+    top:  45%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    width: 270px;
+    text-align: center;
+}
+.instaicon img{
+    height: 30px;
+    position: absolute;
+    top: 55%;
+    margin-left: 40%;
+}
+.facebook img {
+    height: 30px;
+    position: absolute;
+    top: 55%;
+    margin-left: 48%;
+   
+
+}
+.e-mail img {
+    height: 28px;
+    position: absolute;
+    top: 55%;
+    margin-left: 56%;
+}
+.exporemywork p{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imagensdesign {
+    margin-top: 200px;
+    padding: 100px 0;
+}
+.imagensdesign a   {
+    position: relative;
+     display: block;
+     width: 90%;
+     margin: 0 auto;
+}
+
+.imagensdesign img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* padding-left: 17%;
+    padding-top: 270px; */
+    /* width: 90%; */
+    /* height: 700px; */
+}
+
+.overlay{
+    
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-top: 270px; */
+
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.5s;
+
+      
+}
+.imagensdesign a:hover .overlay{
+        opacity: 1;
+}
+
+ .imagensphotography a{
+    position: relative;
+     display: block;
+     width: 90%;
+     margin: 0 auto;
+  }
+.imagensphotography img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay2 {
+    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .imagensphotography a:hover .overlay2 {
+    opacity: 1;
+  }
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding-top: 70px;
+}
+.footerlogo img{
+    /* padding-top: 200px; */
+    height: 40px;
+    /* padding-left:40%; */
+}
+.footerlogo p {
+    position: relative;
+    top: 8px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+.footericon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footericon img{
+    height: 30px;
+    
+}
+.footericomface img{
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.footerinner{
+    display: flex; 
+    justify-content: center;
+    
+    padding-bottom: 10px;
+    
+
+}
+
+.footerLink {
+    display: flex;
+    margin: 0 10px;
+}
+.footerLink img {
+    display: block;
+}
+.footere-mail img{
+   height: 30px;
+
+}
+.textworks p{
+
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+
+}
+

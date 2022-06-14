@@ -1,0 +1,413 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+.toplogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toplogo img{
+    height: 50px;
+}
+
+.lucas p{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;   
+
+}
+
+.manubar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    
+    
+}
+
+.manubar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.manubar p{
+    color: rgb(149, 149, 149);
+}
+.manubar a {
+    text-decoration: none;
+}
+.manubar p:hover{
+    text-decoration: underline;
+}
+.design{
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.hoem{
+    padding-right: 5%;
+}
+
+
+
+.tittles{
+    font-size: 20px;
+    display: flex;
+    justify-content: center
+}
+
+.fotosdoposter img{
+    height: 585px;
+    width: 397px;
+    /* object-fit: contain; */
+    object-fit: cover;
+
+}
+.fotosdopackeage img{
+    height: 350px;
+    width: 600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.posters3 img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.fotos1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.fotosdoposter img{
+    animation: slideIn 1s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn{
+        0%{
+        transform: translatey(180px) 
+    }
+        100%{
+            transform: skew(0deg);
+        }
+        40%,100%{
+            opacity: 1;
+        }
+ }
+ .fotosdopackeage img{
+        animation: slideIn2 1.5s cubic-bezier(0.25,1,0.5,1) forwards
+    }
+    @keyframes slideIn2{
+        0%{
+        transform: translatey(180px) 
+    }
+        100%{
+            transform: skew(0deg);
+        }
+        40%,100%{
+            opacity: 1;
+        }
+    }
+.posters3 img {
+    animation: slideIn22 1.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn22{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+
+.perfume img{
+    animation: slideIn3 2s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn3{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.shark1 img{
+    animation: slideIn4 3s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn4{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.christmas img{
+    animation: slideIn5 4s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn5{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.festival img{
+    animation: slideIn6 5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn6{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+
+.fotos2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.perfume img{
+    height: 585px;
+    width: 397px;
+    object-fit: contain;
+}
+.shark1 img{
+    height: 350px;
+    width: 600px;
+    position: relative;
+    bottom: 220px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.festival img{
+    height: 585px;
+    width: 397px;
+    object-fit: contain;
+}
+.fotos3{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.music img{
+    animation: slideIn7 5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn7{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.music img{
+    height: 585px;
+    width: 397px;
+    object-fit: contain;
+}
+.christmas img{
+    height: 480px;
+    width: 600px;
+    position: relative;
+    bottom: 450px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.film img{
+    animation: slideIn9 6.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn9{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+
+.film img {
+    height: 585px;
+    width: 397px;
+    object-fit: contain;
+}
+.fotos4{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.business img {
+    animation: slideIn9 7s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn9{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.business img {
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+
+}
+.sign img {
+    animation: slideIn8 6s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn8{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.sign img {
+    height: 430px;
+    width: 600px;
+    position: relative;
+    bottom: 550px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.bags img{
+    animation: slideIn10 7.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn10{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.bags img{
+    height: 585px;
+    width: 397px;
+
+
+}
+
+
+
+
+
+
+
+
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding-top: 70px;
+}
+.footerlogo img{
+    /* padding-top: 200px; */
+    height: 40px;
+    /* padding-left:40%; */
+}
+.footerlogo p {
+    position: relative;
+    top: 8px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+.footericon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footericon img{
+    height: 30px;
+    
+}
+.footericomface img{
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.footerinner{
+    display: flex; 
+    justify-content: center;
+    
+    padding-bottom: 10px;
+    
+
+}
+
+.footerLink {
+    display: flex;
+    margin: 0 10px;
+}
+.footerLink img {
+    display: block;
+}
+.footere-mail img{
+   height: 30px;
+
+}
+.textworks p{
+
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+
+}

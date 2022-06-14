@@ -1,0 +1,331 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.toplogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toplogo img{
+    height: 50px;
+}
+
+.lucas p{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+
+.manubar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    
+    
+}
+
+.manubar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.manubar p{
+    color: rgb(149, 149, 149);
+}
+.manubar a {
+    text-decoration: none;
+}
+.manubar p:hover{
+    text-decoration: underline;
+}
+.design{
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.hoem{
+    padding-right: 5%;
+}
+.teamlab img {
+    animation: slideIn 1s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn{
+        0%{
+        transform: translatey(180px) 
+    }
+        100%{
+            transform: skew(0deg);
+        }
+        40%,100%{
+            opacity: 1;
+        }
+ }
+
+.fotos01{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.teamlab img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.cafe img {
+    animation: slideIn2 1.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn2{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.cafe img{
+    height: 428px;
+    width: 384px;
+    object-fit: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.rua1 img {
+    animation: slideIn22 1.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn22{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+
+.rua1 img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.fotos02{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.flor img{
+    animation: slideIn3 2s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn3{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.flor img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.rua02 img {
+    animation: slideIn4 3s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn4{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.rua02 img{
+    position: relative;
+    bottom: 155px;
+    height: 428px;
+    width: 384px;
+    object-fit: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+.max img{
+    animation: slideIn5 4s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn5{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.max img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.fotos03{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.redsky img {
+    animation: slideIn6 4.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn6{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.redsky img{
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+.rua03{
+    animation: slideIn7 5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn7{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.rua03 img{
+    height: 428px;
+    width: 384px;
+    object-fit: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 290px;
+}
+.tokyo img{
+    animation: slideIn8 5.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn8{
+    0%{
+    transform: translatey(180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.tokyo img{
+    padding-top: 20px;
+    height: 585px;
+    width: 397px;
+    object-fit: cover;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding-top: 70px;
+}
+.footerlogo img{
+    /* padding-top: 200px; */
+    height: 40px;
+    /* padding-left:40%; */
+}
+.footerlogo p {
+    position: relative;
+    top: 8px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+.footericon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footericon img{
+    height: 30px;
+    
+}
+.footericomface img{
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.footerinner{
+    display: flex; 
+    justify-content: center;
+    
+    padding-bottom: 10px;
+    
+
+}
+
+.footerLink {
+    display: flex;
+    margin: 0 10px;
+}
+.footerLink img {
+    display: block;
+}
+.footere-mail img{
+   height: 30px;
+
+}
+.textworks p{
+
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+
+}
+

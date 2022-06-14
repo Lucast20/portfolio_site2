@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.toplogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toplogo img{
+    height: 50px;
+}
+
+.lucas p{
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+
+.manubar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    
+    
+}
+
+.manubar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.manubar p{
+    color: rgb(149, 149, 149);
+}
+.manubar a {
+    text-decoration: none;
+}
+.manubar p:hover{
+    text-decoration: underline;
+}
+.design{
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.hoem{
+    padding-right: 5%;
+}
+
+.minhafoto img {
+    animation: slideIn 0.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideIn{
+    0%{
+    transform: translate(-180px) 
+}
+    100%{
+        transform: skew(0deg);
+    }
+    40%,100%{
+        opacity: 1;
+    }
+}
+.introduce{
+    animation: slideme 0.5s cubic-bezier(0.25,1,0.5,1) forwards
+}
+@keyframes slideme{
+    0%{
+        transform: translate(180px) 
+    }
+        100%{
+            transform: skew(0deg);
+        }
+        40%,100%{
+            opacity: 1;
+        }
+}
+.myintroduction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.minhafoto img{
+    padding-top: 20px;
+    
+    height: 516px;
+    width: 603px;
+    
+}
+.introduce{
+    padding-top: 100px;
+}
+.name{
+  /* line-height: 50px; */
+}
+.name3{
+    line-height: 30px;
+    
+    
+}
+.name2{
+    display: flex;
+    align-items: center;
+    line-height: 70px;
+}
+dl{
+    font-size: 15px;
+}
+
+.applogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+    
+}
+.photoshop{
+    height: 80px;
+    width: 80px;
+    padding-right: 5%;
+
+}
+.illustrator{
+    height: 80px;
+    width: 80px;
+    padding-right: 5%;
+}
+.premiere{
+    height: 80px;
+    width: 80px;
+    padding-right: 5%;
+}
+.aftereffect{
+    height: 80px;
+    width: 80px;
+    padding-right: 5%;
+}
+.lightroom{
+    height: 80px;
+    width: 80px;
+}
+.coding{
+    display: flex;
+    width: 100%;
+    padding-top: 10%;
+    justify-content: center;
+    
+}
+.htmllogo{
+    height: 100px;
+    width: 100px;
+}
+.csslogo{
+    padding-top: 5px;
+    height: 70px;
+    width: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.javascripstlogo{
+    padding-top: 5px;
+    padding-left: 13px;
+    height: 90px;
+    width:  84px;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding-top: 270px;
+}
+.footerlogo img{
+    /* padding-top: 200px; */
+    height: 40px;
+    /* padding-left:40%; */
+}
+.footerlogo p {
+    position: relative;
+    top: 8px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: Academy Engraved LET;
+    font-size: 28px;    
+}
+.footericon{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footericon img{
+    height: 30px;
+    
+}
+.footericomface img{
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.footerinner{
+    display: flex; 
+    justify-content: center;
+    
+    padding-bottom: 10px;
+    
+
+}
+
+.footerLink {
+    display: flex;
+    margin: 0 10px;
+}
+.footerLink img {
+    display: block;
+}
+.footere-mail img{
+   height: 30px;
+
+}
+.textworks p{
+
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+
+}
